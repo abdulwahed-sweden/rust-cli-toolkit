@@ -1,0 +1,32 @@
+# This file is part of the Rust CLI Toolkit project.
+[package]
+name = "rust-cli-toolkit"
+version = "0.1.0"
+edition = "2021"
+authors = ["Abdulwahed Mansour <abdulwahed.sweden@gmail.com>"]
+description = "A powerful, modular command-line toolkit built with Rust"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/abdulwahed-sweden/rust-cli-toolkit"
+repository = "https://github.com/abdulwahed-sweden/rust-cli-toolkit"
+keywords = ["cli", "command-line", "tool", "utilities", "rust"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.4", features = ["derive", "color"] }
+tokio = { version = "1.0", features = ["full"] }
+anyhow = "1.0"
+thiserror = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.8"
+colored = "2.1"
+dirs = "5.0"
+
+[dev-dependencies]
+tempfile = "3.8"
+tokio-test = "0.4"
+
+[[bin]]
+name = "rct"
+path = "src/main.rs"
