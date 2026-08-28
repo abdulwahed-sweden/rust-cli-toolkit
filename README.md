@@ -159,3 +159,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Documentation](https://docs.rs/rust-cli-toolkit)
 - [GitHub Issues](https://github.com/YOUR_USERNAME/rust-cli-toolkit/issues)
 - [GitHub Discussions](https://github.com/YOUR_USERNAME/rust-cli-toolkit/discussions)
+
+---
+
+## Support
+
+Rust CLI Toolkit is maintained as independent open-source work. If it is useful to you or
+your team, sponsorship helps fund maintenance, tests, documentation and releases.
+
+<p align="center">
+  <a href="https://github.com/sponsors/abdulwahed-sweden?metadata_source=rust_cli_toolkit&metadata_campaign=readme">
+    <img src="https://img.shields.io/badge/Sponsor_continued_development-%E2%9D%A4-db61a2?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor continued development">
+  </a>
+</p>
